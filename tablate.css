@@ -1,0 +1,161 @@
+/* Ipad Mini , Ipad*/
+.navbar {
+  padding: 2% 7%;
+}
+
+.navbar input {
+  display: block;
+  width: 36px;
+  height: 32px;
+  position: absolute;
+  top: 34%;
+  right: 8%;
+  opacity: 0;
+}
+
+.navbar input:checked ~ .nav-links {
+  transform-origin: 0 0;
+  transition: transform 1s;
+  transform: translate(-100%, 0);
+}
+
+.navbar .nav-links {
+  transition: transform 1s;
+}
+
+.logo {
+  font-size: 2.5em;
+}
+
+.link li {
+  display: block;
+  padding: 30px;
+  font-size: 25px;
+}
+.navbar {
+  height: 90px;
+}
+
+.nav-links {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  top: 90px;
+  right: -300px;
+  text-align: left;
+  background: #78aedfe0;
+  padding-top: 3px;
+  overflow: hidden;
+}
+
+.button {
+  padding: 10px;
+}
+
+.hero .image img {
+  max-width: 340px;
+  max-height: 250px;
+}
+#case-study,
+#about,
+#services,
+#pricing,
+#contant,
+.info,
+.footer {
+  /* padding: 100px; */
+  padding: 17% 7%;
+}
+.test {
+  padding: 17% 3%;
+}
+.hero {
+  padding: 17% 7%;
+  flex-wrap: nowrap;
+}
+.text p {
+  font-size: 25px;
+}
+.service,
+.card {
+  margin: 0;
+}
+.card .size {
+  width: 40%;
+}
+#about .left,
+#about .right {
+  width: 100%;
+  /* padding: 10px; */
+}
+
+.service {
+  flex-wrap: wrap;
+}
+
+.service p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.navbar .fa {
+  display: block;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.right {
+  height: 300px;
+}
+
+.left h2 {
+  font-size: 30px;
+}
+.members {
+  display: block;
+}
+
+.slide {
+  column-gap: 16px;
+}
+.slide div {
+  width: 48%;
+}
+#slide1:checked ~ .slide {
+  transform-origin: 0 0;
+  transition: transform 0.5s;
+  margin-left: 0px;
+  /* transform: translateX(-672px); */
+}
+
+#slide4:checked ~ .slide {
+  transform-origin: 0 0;
+  transition: transform 0.5s;
+  transform: translateX(-100%);
+  /* transform: translate(-100%, 0); */
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4 {
+  margin: 0 0 30px;
+  max-width: 98%;
+}
+
+.cloud h4::before {
+  right: -65px;
+}
+#contant {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info .flex {
+  gap: 50px;
+}
+.DS-grid {
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,156 @@
+/* Galaxy Note II */
+#nav {
+  padding: 2% 7%;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+}
+.navbar .nav-links {
+  height: 100vh;
+  width: 190px;
+  top: 70px;
+  right: -190px;
+}
+.nav-links .link li {
+  display: block;
+  padding: 25px 10px;
+  font-size: 17px;
+}
+
+.container .hero {
+  padding: 2% 7%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.hero .image img {
+  width: 330px;
+  height: 180px;
+}
+
+.navbar input {
+  top: 29px;
+  right: 56px;
+}
+
+.navbar,
+.hero {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+#about .right img,
+#our-team img {
+  /* padding-top: 20px; */
+  max-width: 100%;
+}
+#case-study .DS-grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+#pricing .card .size {
+  width: 90%;
+}
+#our-team {
+  /* padding: 100px; */
+  padding: 17% 7%;
+}
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6 {
+  width: 100%;
+}
+
+#case-study {
+  padding: 100px 100px 0;
+  text-align: center;
+}
+
+#about .flex {
+  /* padding: 100px 175px 0; */
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.left,
+.right {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.card {
+  justify-content: space-evenly;
+  margin: 2% 7%;
+}
+#testemonial {
+  padding: 5%;
+}
+
+.slider .slide {
+  column-gap: 7px;
+}
+/* .slide div {
+  width: 70vw;
+  height: 100%;
+  transition: all 0.15s ease;
+} */
+.dots .display {
+  display: inline;
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4 {
+  margin: 0 0 30px;
+  max-width: 98%;
+}
+.test .slide div {
+  width: 100%;
+}
+#slide2:checked ~ .slide {
+  transform-origin: 0 0;
+  transition: transform 0.5s;
+  /* transform: translateX(-672px); */
+  transform: translateX(-102%);
+}
+
+#slide3:checked ~ .slide {
+  transform-origin: 0 0;
+  transition: transform 0.5s;
+  /* transform: translateX(-672px); */
+  transform: translateX(-204%);
+}
+
+.slider #slide4:checked ~ .slide {
+  transform-origin: 0 0;
+  transition: transform 0.5s;
+  /* transform: translateX(-672px); */
+  transform: translateX(-306%);
+}
+
+.grid {
+  grid-template-areas:
+    "name name"
+    "email email"
+    "phone phone"
+    "website website"
+    "message message"
+    "message message"
+    "get get"
+    "follow follow";
+}
+.size {
+  width: 45%;
+}
