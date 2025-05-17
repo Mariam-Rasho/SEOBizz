@@ -9,10 +9,16 @@
 }
 
 .navbar .nav-links {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     top: 70px;
-    right: -100vw;
+    right: -100%;
+}
+
+.navbar input:checked~.nav-links {
+    transform-origin: 0 0;
+    transition: transform 1s;
+    transform: translate(-100%, 0);
 }
 
 .navbar .nav-links ul.link {
@@ -67,7 +73,7 @@ h2 {
 }
 
 #pricing .card .size {
-    width: 90%;
+    width: 80%;
 }
 
 #our-team {
@@ -85,7 +91,7 @@ h2 {
 }
 
 #case-study {
-    padding: 100px 100px 0;
+    padding: 100px 30px 0;
     text-align: center;
 }
 
@@ -104,7 +110,7 @@ h2 {
 
 .card {
     justify-content: space-evenly;
-    margin: 2% 7%;
+    margin: 2% 0;
 }
 
 #testemonial {
@@ -134,29 +140,37 @@ h2 {
     max-width: 98%;
 }
 
+.cloud
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .test .slide div {
-    width: 100%;
+    width: 120%;
 }
 
 #slide2:checked~.slide {
     transform-origin: 0 0;
     transition: transform 0.5s;
     /* transform: translateX(-672px); */
-    transform: translateX(-102%);
+    transform: translateX(-90%);
 }
 
 #slide3:checked~.slide {
     transform-origin: 0 0;
     transition: transform 0.5s;
     /* transform: translateX(-672px); */
-    transform: translateX(-204%);
+    transform: translateX(-190%);
 }
 
 .slider #slide4:checked~.slide {
     transform-origin: 0 0;
     transition: transform 0.5s;
     /* transform: translateX(-672px); */
-    transform: translateX(-306%);
+    transform: translateX(-284%);
 }
 
 .grid {
