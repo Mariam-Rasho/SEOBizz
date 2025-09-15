@@ -23,7 +23,7 @@ body {
     font-weight: bold;
     z-index: 1;
 
-    @media screen and (max-width: 3000px) {
+    @media screen and (max-width: 1500px) {
         padding: 2%;
     }
 }
@@ -37,7 +37,7 @@ body {
 .logo {
     font-size: 3rem;
 
-    @media screen and (max-width: 3068px) {
+    @media screen and (max-width: 1068px) {
        font-size: 1.5rem;
 
        img {
@@ -83,7 +83,7 @@ a {
 .hero {
     padding: 125px 175px;
 
-       @media screen and (max-width: 3068px) {
+       @media screen and (max-width: 1068px) {
           padding: 2rem;
         }
 }
@@ -155,7 +155,7 @@ a {
     justify-content: space-between;
     align-items: center;
 
-        @media screen and (max-width: 3068px) {
+        @media screen and (max-width: 1068px) {
           margin: 50px 2rem;
         }
 }
@@ -236,7 +236,7 @@ button:hover,
 
 #about {
     padding: 100px 175px 0;
-        @media screen and (max-width: 3068px) {
+        @media screen and (max-width: 1068px) {
           padding: 100px 2rem 0;
         }
 }
@@ -244,7 +244,7 @@ button:hover,
 #case-study {
     padding: 100px 175px 0;
     text-align: center;
-        @media screen and (max-width: 3068px) {
+        @media screen and (max-width: 1068px) {
           padding: 100px 2rem 0;
         }
 }
@@ -561,7 +561,7 @@ h3::after {
     text-align: center;
     padding: 100px 175px;
 
-    @media screen and (max-width: 3068px) {
+    @media screen and (max-width: 1068px) {
         padding: 100px 2rem;
     }
 }
