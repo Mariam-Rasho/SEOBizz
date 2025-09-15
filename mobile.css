@@ -1,4 +1,10 @@
 /* Galaxy Note II */
+.logo {
+    img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+}
 
 #nav {
     padding: 2% 7%;
@@ -9,7 +15,7 @@
 }
 
 .navbar .nav-links {
-    height: 80vh;
+    height: 85%;
     width: 100vw;
     top: 70px;
     right: -100%;
@@ -132,12 +138,17 @@ h2 {
     display: inline;
 }
 
+.dots {
+    display: none;
+}
+
 .cloud1,
 .cloud2,
 .cloud3,
 .cloud4 {
     margin: 0 0 30px;
-    max-width: 98%;
+    max-width: 100%;
+    width: 100%;
 }
 
 .cloud
@@ -165,6 +176,15 @@ h2 {
     /* transform: translateX(-672px); */
     transform: translateX(-190%);
 }
+
+#slide4, #slide3 {
+    display: none !important;
+}
+
+.slide4, .slide3 , .slide2 {
+    display: none !important;
+}
+
 
 .slider #slide4:checked~.slide {
     transform-origin: 0 0;
