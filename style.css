@@ -393,7 +393,7 @@ button:hover,
 .card {
     margin: 20px 175px;
 
-        @media screen and (max-width: 3068px) {
+        @media screen and (max-width: 1068px) {
             margin: 20px 2rem;
         }
 }
